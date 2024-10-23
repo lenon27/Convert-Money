@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "EB Garamond", serif;
+}
+
+body {
+   background-color: #772fd3;
+}
+
+.logo{    
+    width: 100%;
+    max-width: 370px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; 
+}
+
+main  {
+    width: 100%;
+    max-width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px; 
+    padding: 44px 24px 23px; /* 1)cima 2) Lados 3) baixo*/
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #ffffff;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 44px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;/*Para poder tirar a setinha que esta dentro do nosso placeholder*/
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background:#772fd3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 17px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 5px auto;    
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.footer p {
+    margin-top: 0;
+    margin-left: 45%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #772fd3;
+    opacity: 0.8;
+}
+
+.email-link {
+margin-left: 45%;
+font-size: 24px;
+font-weight: 300;
+}
